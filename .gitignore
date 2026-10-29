@@ -1,0 +1,12 @@
+# Configuração de cada máquina (caminhos locais)
+config.local.json
+
+# Dependências
+node_modules/
+
+# Renders e mídia pesada de projeto (ficam fora do repositório)
+*.mp4
+*.mov
+*.mxf
+RENDERS/
+FOOTAGE/

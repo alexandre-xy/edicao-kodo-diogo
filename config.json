@@ -1,0 +1,10 @@
+{
+  "_sobre": "Padrão para todos os PCs. Caminho que mudar numa máquina vai em config.local.json (mesmas chaves, fora do git). ~ = pasta do usuário. raiz_projetos = onde as pastas de cliente são criadas (Etapa 1). biblioteca = assets gerais curados (trilhas, sfx, transições). AJUSTE os dois caminhos para o seu PC.",
+  "raiz_projetos": "~/Videos/Projetos",
+  "biblioteca": "~/Videos/Biblioteca",
+  "hyperframes_pin": "0.8.162",
+  "whisper_cli": "~/.cache/hyperframes/whisper/bin-b5454/Release/whisper-cli.exe",
+  "carve_core": "~/.cache/hyperframes/corepkg",
+  "python_transcricao": "~/.cache/kodo/venv-transcricao/Scripts/python.exe",
+  "python_voz": "~/.cache/kodo/venv-voz/Scripts/python.exe"
+}

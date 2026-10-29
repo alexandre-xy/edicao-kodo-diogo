@@ -1,0 +1,26 @@
+{
+  "nome": "editorial-pictograma",
+  "descricao": "Editorial limpo: legenda palavra por palavra (palavra-chave amarela), split screen com pictogramas AIGA sobre grade técnica, acento vermelho, cartão final em papel. Validado no piloto Michael (depoimento 9:16, out/2026).",
+  "metadados": { "segmentos": ["Corporativo B2B", "Saúde/Estética Médica", "Depoimentos"], "tom": ["reflexivo", "didático"], "formatos": ["9:16"], "ritmo": "médio-dinâmico" },
+  "cores": { "tinta": "#111", "vermelho": "#E5232E", "amarelo": "#FFD400", "branco": "#fff", "painel": "#FBFBFB", "grade": "#CDEBEF", "papel": "#F5F0EA", "fundo": "#0a0a0a" },
+  "fontes": [
+    { "familia": "Inter Tight", "peso": 700, "arquivo": "inter-tight-latin-700-normal.woff2" },
+    { "familia": "Inter Tight", "peso": 800, "arquivo": "inter-tight-latin-800-normal.woff2" },
+    { "familia": "Inter Tight", "peso": 900, "arquivo": "inter-tight-latin-900-normal.woff2" }
+  ],
+  "legenda": {
+    "tamanho": 70, "peso": 800, "entrelinha": 1.04, "tracking": "-0.03em",
+    "sombra": "0 4px 24px rgba(0,0,0,.45), 0 2px 6px rgba(0,0,0,.35)",
+    "chaveEscala": 1.25, "laterais": 70, "baseBottom": 835, "altura": 260,
+    "pop": { "de": 0.85, "dur": 0.18, "ease": "back.out(1.6)" },
+    "maxChars": 26, "pausaQuebra": 0.3, "minEntrePalavras": 0.06, "antecipa": 0.04, "segura": 0.6, "juntarFinal": 0.25,
+    "faixa": { "top": 790, "altura": 330, "opacidade": 0.30 }
+  },
+  "split": { "top": 1114, "altura": 806, "subidaVideo": -120, "entra": { "dur": 0.45, "ease": "power3.inOut" }, "sai": { "dur": 0.4, "ease": "power3.inOut" }, "gradePasso": 48, "gradeOffset": "12px 10px" },
+  "camera": { "origem": "47% 22%", "hook": { "zoom": 1.15, "dur": 0.7, "ease": "power2.inOut" }, "pushFinal": { "zoom": 1.05, "ease": "sine.inOut" } },
+  "hookX": { "tamanho": 290, "top": 640, "lateral": 30, "tremida": [-14, 12, -8, 0] },
+  "sfx": { "ganho": 1.4, "teto": 0.9, "mapa": { "tick": "click-soft.mp3", "whoosh": "whoosh-short.mp3", "pop": "pop.mp3", "click": "click.mp3", "impacto": "impact-bass-2.mp3", "impactoFinal": "impact-bass-1.mp3", "chime": "chime.mp3", "erro": "error.mp3" } },
+  "cartao": { "lead": 0.05, "dur": 1.6, "barcode": [3, 1, 2, 1, 4, 1, 1, 3, 2, 1, 1, 2, 3, 1, 2, 2, 1, 4, 1, 2, 1, 3, 1, 1, 2, 3], "linha1": { "peso": 800, "tamanho": 124 }, "linha2": { "peso": 900, "tamanho": 196 } },
+  "trilha": { "ganhoDb": -8.4, "fadeOut": 1.4, "carve": 0.3 },
+  "gsap": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+}

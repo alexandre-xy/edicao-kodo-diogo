@@ -1,0 +1,162 @@
+{
+  "nome": "viral-talking-head",
+  "descricao": "Estilo viral de pílula de conteúdo (referência: tutorial 'How to Edit VIRAL Reels with AI'): legenda sans + palavra-chave em serif itálico revelada da esquerda p/ direita, 4 tipos de cena (legenda, legenda+UI, meia tela, tela cheia), indicador de capítulo, fundo claro com grade, câmera que acompanha o texto. Cores/fontes são parâmetros.",
+  "metadados": {
+    "segmentos": [
+      "Educativo",
+      "Pílula de conteúdo",
+      "Corporativo",
+      "Saúde/Estética",
+      "Depoimento"
+    ],
+    "formatos": [
+      "9:16"
+    ],
+    "ritmo": "viral"
+  },
+  "motor": "viral",
+  "cores": {
+    "acento": "#3B7BF6",
+    "acento2": "#9DB8F5",
+    "erro": "#E5483C",
+    "tinta": "#111111",
+    "branco": "#FFFFFF",
+    "cinza": "#5A5F69",
+    "claro": "#F3F1EE",
+    "claroSombra": "#E6E3DF",
+    "grade": "rgba(17,17,17,0.055)",
+    "cartao": "#FFFFFF",
+    "pilula": "rgba(16,17,22,0.78)",
+    "pilulaBorda": "rgba(255,255,255,0.10)",
+    "fundo": "#0a0a0a"
+  },
+  "fontes": [
+    {
+      "familia": "Inter",
+      "peso": "100 900",
+      "estilo": "normal",
+      "arquivo": "inter-var-latin.woff2"
+    },
+    {
+      "familia": "Playfair Display",
+      "peso": "400 900",
+      "estilo": "italic",
+      "arquivo": "playfair-display-italic-var.ttf"
+    }
+  ],
+  "tipografia": {
+    "sans": {
+      "familia": "Inter",
+      "peso": 500,
+      "tamanho": 42,
+      "tracking": "-0.3px",
+      "entrelinha": 1.12
+    },
+    "serif": {
+      "familia": "Playfair Display",
+      "peso": 700,
+      "estilo": "italic",
+      "escala": 2.2,
+      "tracking": "-1px"
+    },
+    "glow": "0 0 28px rgba(59,123,246,0.28)"
+  },
+  "legenda": {
+    "larguraMax": 800,
+    "maxChars": 66,
+    "pausaQuebra": 0.45,
+    "antecipa": 0.03,
+    "segura": 0.35,
+    "minEntrePalavras": 0.05,
+    "posicao": {
+      "legenda": {
+        "y": 975
+      },
+      "ui": {
+        "y": 975
+      },
+      "meia": {
+        "y": 1000
+      }
+    },
+    "sansEntra": 0.2,
+    "serifPorLetra": 0.025,
+    "serifMin": 0.22,
+    "escalaCheia": 1.2,
+    "holdMin": 0.45,
+    "holdAtrasoMax": 0.5,
+    "rostoFolga": 40,
+    "limiteBaixo": 1600,
+    "limiteTopo": 180
+  },
+  "escurecer": {
+    "de": 1250,
+    "opacidade": 0.62,
+    "desfoque": 14,
+    "entra": 0.3,
+    "sai": 0.2
+  },
+  "ritmo": {
+    "viral": {
+      "ui": 0.2,
+      "iris": 0.15,
+      "painel": 0.24,
+      "camera": 0.45,
+      "snap": 0.1,
+      "objeto": 0.4,
+      "easeEntra": "power3.out",
+      "easeSai": "power2.in",
+      "easeCamera": "power3.inOut"
+    },
+    "suave": {
+      "ui": 0.35,
+      "iris": 0.4,
+      "painel": 0.5,
+      "camera": 0.8,
+      "snap": 0.35,
+      "objeto": 0.6,
+      "easeEntra": "power2.out",
+      "easeSai": "power2.inOut",
+      "easeCamera": "sine.inOut"
+    }
+  },
+  "meiaTela": {
+    "alturaPainel": 960,
+    "zonaLegenda": 1200,
+    "video": {
+      "escala": 1.25,
+      "ancora": "50% 18%",
+      "deslocaY": 880
+    }
+  },
+  "capitulo": {
+    "y": 1150,
+    "largura": 495,
+    "altura": 140,
+    "circulo": 80
+  },
+  "sfx": {
+    "mapa": {
+      "whoosh": "whoosh-short.mp3",
+      "pop": "pop.mp3",
+      "click": "click.mp3",
+      "ui": "click-soft.mp3",
+      "impacto": "impact-bass-2.mp3",
+      "hit": "impact-bass-1.mp3",
+      "sucesso": "chime.mp3",
+      "erro": "error.mp3"
+    },
+    "niveisDb": {
+      "whoosh": -12,
+      "textura": -6.5,
+      "riser": -5,
+      "musica": -19
+    }
+  },
+  "gsap": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js",
+  "trilha": {
+    "lufs": -26,
+    "sobAnimacaoDb": null,
+    "fadeOut": 1.2
+  }
+}

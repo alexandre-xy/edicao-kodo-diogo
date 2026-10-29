@@ -1,0 +1,140 @@
+{
+  "_sobre": "Modelo de DATA/projeto.json (briefing + parâmetros). Caminhos relativos à raiz do cliente.",
+  "nome": "<Cliente_Projeto>",
+  "titulo": "<Cliente_Projeto>",
+  "modo": "corte+finalizacao",
+  "template": "editorial-pictograma",
+  "cenas": "DATA/cenas.mjs",
+  "pastas": {
+    "hf": "DATA/hf"
+  },
+  "hyperframes": {
+    "pin": "0.8.162"
+  },
+  "fonte": {
+    "video": "FOOTAGE/<bruto>.mp4",
+    "largura": 0,
+    "altura": 0,
+    "duracao": 0
+  },
+  "saida": {
+    "largura": 1080,
+    "altura": 1920,
+    "fps": "24000/1001",
+    "loudness": -14,
+    "picoTP": -1.5
+  },
+  "transcricao": {
+    "audio16k": "DATA/transcricao/audio_16k.wav",
+    "whisper": "DATA/transcricao/whisper_large-v3.json",
+    "parakeet": "DATA/transcricao/parakeet.json",
+    "duracao": 0
+  },
+  "corte": {
+    "intermediario": [
+      1296,
+      2304
+    ],
+    "jFrames": 3,
+    "minPedaco": 0.6,
+    "folgaSaida": 0.07,
+    "folgaEntrada": 0.05,
+    "silencioMin": 0.3,
+    "zooms": [
+      1,
+      1.05
+    ],
+    "ancora": [
+      0.47,
+      0.22
+    ],
+    "trechos": []
+  },
+  "disfarce": {
+    "rastreio": {
+      "ref_t": 0,
+      "regiao": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "busca": 36
+    },
+    "areas": []
+  },
+  "legenda": {
+    "regra": "literal (só grafia)",
+    "chaves": [],
+    "substituir": {},
+    "pontuacao": {},
+    "semPontuacao": [],
+    "linhas": 2,
+    "_linhas": "1 ou 2 linhas por bloco. Parâmetro do template/cliente; perguntar só em estilo novo."
+  },
+  "hook": {
+    "x": []
+  },
+  "trilha": {
+    "fonte": "ASSETS/trilha/<trilha>.mp3"
+  },
+  "transicoes": {
+    "arquivos": {},
+    "ordem": [],
+    "viradas": {
+      "entradaDeTrechos": [],
+      "srcStarts": [],
+      "tolerancia": 0.2
+    }
+  },
+  "risers": {},
+  "assetsPreparados": [],
+  "cartao": {
+    "linhas": [
+      "",
+      ""
+    ]
+  },
+  "davinci": {
+    "versao": "v1",
+    "evento": "<Cliente_Projeto> v1",
+    "projeto": "<cliente>_v1",
+    "ganhoVoz": "+0.0dB"
+  },
+  "briefing": {
+    "segmento": "Corporativo B2B",
+    "tipo": "Depoimento",
+    "plataforma": "Reels/Shorts",
+    "duracaoAlvo": "60s",
+    "idioma": "pt-BR",
+    "cta": "",
+    "lowerThird": false,
+    "logo": false,
+    "restricoes": [
+      "rosto livre",
+      "sem marca da produtora"
+    ],
+    "aprovador": "piloto",
+    "maxRodadas": 2,
+    "entregaveis": [
+      "mp4",
+      "preview720",
+      "folha",
+      "pacoteDaVinci"
+    ]
+  },
+  "grafismos": [],
+  "splitSubida": -120,
+  "_grafismos": "Lista de receitas (ver etapas/04-plano.md e grafismos/CATALOGO.md). Modo finalizacao: trilha:{mixada:true}; cartao.inicio opcional.",
+  "_viral": "Motor viral: template com motor:viral usa `plano[]` (ver etapas/04-plano-viral.md) em vez de `grafismos[]`; campos: ritmo (viral|suave), legenda.chaves/substituir/capitalizar, plano[].",
+  "plano": [],
+  "ritmo": "viral",
+  "som": {
+    "ambiente": "nao",
+    "_ambiente": "cama/trilha ambiente sintética: nao | sim. Parâmetro do template/cliente."
+  },
+  "previa": {
+    "quadros": 48,
+    "notaMinima": 8
+  }
+}
